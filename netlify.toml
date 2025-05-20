@@ -1,7 +1,17 @@
 [build]
   base = "frontend"
   command = "npm run build"
-  publish = "frontend/build"
+  publish = "/build"
 
 [build.environment]
   NODE_VERSION = "18.16.0"
+
+[[redirects]]
+  from = "/api/*"
+  to = "https://your-backend-url/*"
+  status = 200
+
+[[redirects]]
+  from = "/subjects/*"
+  to = "https://your-backend-url/subjects/*"
+  status = 200
