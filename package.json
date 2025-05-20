@@ -2,18 +2,10 @@
   "name": "smart-study-planner",
   "version": "1.0.0",
   "description": "Smart Study Planner Application",
-  "homepage": "https://Devansh810204.github.io/SMART_STUDY_PLANNER.git",
+  "homepage": "https://Devansh810204.github.io/SMART_STUDY_PLANNER/",
   "scripts": {
     "start": "cd frontend && npm start",
     "build": "cd frontend && npm run build",
-    "test": "cd frontend && npm test",
-    "eject": "cd frontend && react-scripts eject",
-    "predeploy": "npm run build",
-    "deploy": "netlify deploy --prod",
-    "deploy-gh-pages": "gh-pages -d frontend/build"
-  },
-  "dependencies": {},
-  "devDependencies": {
-    "gh-pages": "^6.3.0"
+    "test": "cd frontend && npm test"
   }
 }
