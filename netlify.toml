@@ -8,10 +8,10 @@
 
 [[redirects]]
   from = "/api/*"
-  to = "https://your-backend-url/*"
+  to = "https://smart-study-planner.onrender.com/*"
   status = 200
 
 [[redirects]]
   from = "/subjects/*"
-  to = "https://your-backend-url/subjects/*"
+  to = "https://smart-study-planner.onrender.com/subjects/*"
   status = 200
